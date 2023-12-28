@@ -18,7 +18,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ScrollBar;
 
 
-public class Zichen_Qiu_2252705_sankeydiagrams extends Application {
+public class sankeydiagrams extends Application {
     //--module-path "C:\Program Files\Java\javafx-sdk-17.0.9\lib" --add-modules javafx.controls,javafx.fxml
     private Double wordSize =16.0;
     private Double rate=0.5;
@@ -30,7 +30,7 @@ public class Zichen_Qiu_2252705_sankeydiagrams extends Application {
     public void start(Stage primaryStage) {
 
         String filePath = "C:\\Users\\Qiu\\Desktop\\code\\java\\javaFX\\src\\cw3\\example3.txt"; // The file's position
-        Zichen_Qiu_2252705_readFile data = new Zichen_Qiu_2252705_readFile(filePath); // Use another class to readFile
+        readFile data = new readFile(filePath); // Use another class to readFile
 
         Pane pane = new Pane(); // The main pane
         ScrollPane scrollPane = new ScrollPane(pane);

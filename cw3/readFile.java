@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.*;
 
 
-public class Zichen_Qiu_2252705_readFile {
+public class readFile {
 
     private String title = "";
     private Map<String, Integer> map = new HashMap<>();
@@ -65,7 +65,7 @@ public class Zichen_Qiu_2252705_readFile {
         }
     }
 
-    public Zichen_Qiu_2252705_readFile(String dataPath) {
+    public readFile(String dataPath) {
         try {
             this.map = dataStorage(dataPath);
         } catch (IOException e) {
